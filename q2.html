@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Display Property</title>
+        <style>
+            .a{
+                border: 1px solid black;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .inline{
+                display: inline;
+            }
+            .Block{
+                display: block;
+            }
+            .inline-block{
+                display: inline-block;
+            }
+            .b{
+                background-color: lightgray;
+            }
+            .c{
+                background-color: lightgray;
+                margin-bottom: 5px;
+            }
+            .d{
+                background-color: lightgray;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Display: Inline vs Block vs Inline-Block</h2>
+        <div class="a">
+            <div id="inline">
+                <h4>Inline Elements (spans)</h4>
+                <span class="b">Span 1</span>
+                <span class="b">Span 2</span>
+                <span class="b">Span 3</span>
+            </div>
+        </div>
+        <div class="a">
+            <div id="Block">
+                <h4>Inline Elements (spans)</h4>
+                <div class="c">Div 1</div>
+                <div class="c">Div 2</div>
+                <div class="c">Div 3</div>
+            </div>
+        </div>
+        <div class="a">
+            <div id="inline-block">
+                <h4>Inline Elements (spans)</h4>
+                <span class="d">Inline-Block 1</span>
+                <span class="d">Inline-Block 2</span>
+                <span class="d">Inline-Block 3</span>
+            </div>
+        </div>
+    </body>
+</html>
