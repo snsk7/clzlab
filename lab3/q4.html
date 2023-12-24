@@ -2,10 +2,8 @@
 <html>
 <body>
 
-<h2>The XMLHttpRequest Object</h2>
-
 <div id="demo">
-<p>Let AJAX change this text.</p>
+<h2>The XMLHttpRequest Object</h2>
 <button type="button" onclick="loadDoc()">Change Content</button>
 </div>
 
@@ -13,9 +11,10 @@
 function loadDoc() {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
-    document.getElementById("demo").innerHTML = this.responseText;
+    document.getElementById("demo").innerHTML =
+    this.responseText;
   }
-  xhttp.open("GET", "ajax_info.txt");
+  xhttp.open("GET", "note.xml");
   xhttp.send();
 }
 </script>
