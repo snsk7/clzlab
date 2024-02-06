@@ -1,0 +1,7 @@
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';
+
+mysql-init.txt
+
+C:\> mysqld
+         --defaults-file="C:\\ProgramData\\MySQL\\MySQL Server 8.3\\my.ini"
+         --init-file=C:\\mysql-init.txt
