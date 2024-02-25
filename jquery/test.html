@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <p id="s">this is text</p>
+        <button id="d">click me</button>
+<script>
+            let a = {
+                fname: "sisir",
+                mname: "narayan",
+                lname: "chhetri"
+            };
+
+            function f(){
+                for(let x in a){
+                    text += a[x];
+                }
+            }
+
+            $(document).ready(function () {
+                $("#d").click(function(){
+                    $("#s").text(f);
+                });
+            });
+        </script>
+    </body>
+</html>

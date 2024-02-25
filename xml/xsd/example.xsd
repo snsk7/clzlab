@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+
+    <xsi:element name="root">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element name="child" maxOccurs="2">
+                    <xsi:complexType>
+                        <xsi:sequence>
+                            <xsi:element name="name">
+                                <xsi:complexType>
+                                    <xsi:simpleContent>
+                                        <xsi:extension base="xsi:string">
+                                            <xsi:attribute name="aid" type="xsi:string"> </xsi:attribute>
+                                        </xsi:extension>
+                                    </xsi:simpleContent>
+                                </xsi:complexType>
+                            </xsi:element>
+                            <xsi:element name="age" type="xsi:int"></xsi:element>
+                            <xsi:element name="address" type="xsi:string"></xsi:element>
+                        </xsi:sequence>
+                    </xsi:complexType>
+                </xsi:element>
+            </xsi:sequence>
+        </xsi:complexType>
+    </xsi:element>
+
+</xsi:schema>

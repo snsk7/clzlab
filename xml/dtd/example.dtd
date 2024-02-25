@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT root (child+)>
+<!ELEMENT child (name,age,address,contact)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+
+<!ATTLIST name aid CDATA #REQUIRED >

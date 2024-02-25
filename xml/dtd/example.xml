@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE root SYSTEM "./example.dtd">
+
+<root>
+    <child>
+        <name aid="2">ccer</name>
+        <age>21</age>
+        <address>bagmara</address>
+        <contact>9815179012</contact>
+    </child>
+    <child>
+        <name aid="1">anuj</name>
+        <age>29</age>
+        <address>us-txs</address>
+        <contact>00000000</contact>
+    </child>
+</root>

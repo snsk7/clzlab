@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root xmlns:f="this" xmlns:g="new">
+    <f:child>
+        <f:name>ccer</f:name>
+        <f:age>21</f:age>
+        <f:address>bagmara</f:address>
+    </f:child>
+    <g:child>
+        <g:name>shadbhav</g:name>
+        <g:age>18</g:age>
+        <g:address>New-road</g:address>
+    </g:child>
+</root>

@@ -1,0 +1,15 @@
+{
+    "info" :{
+        "fname": "ccer",
+        "lname": "chhetri",
+        "age": 21,
+        "address": "bagmara",
+        "skills" : ["c","java"]
+    },
+    "sinfo" :{
+        "fname": "singh",
+        "lname": "thapa",
+        "age": 20,
+        "address": "pokhara"
+    }
+}

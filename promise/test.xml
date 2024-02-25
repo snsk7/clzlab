@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <child aid="1">
+        <name>ccer</name>
+        <address>bagmara</address>
+        <contact>9815179012</contact>
+    </child>
+    <child aid="2">
+        <name>shadbhav</name>
+        <address>new road</address>
+        <contact>9806637813</contact>
+    </child>
+</root>

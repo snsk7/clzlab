@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<root>
+    <child>
+        <name aid="1">ccer</name>
+        <age>21</age>
+        <address>bagmara</address>
+    </child>
+    <child>
+        <name aid="2">shadbhav</name>
+        <age>18</age>
+        <address>New-road</address>
+    </child>
+</root>

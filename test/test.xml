@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE root SYSTEM "./test.dtd" >
+
+<root>
+    <child aid="1">
+        <name>ccer</name>
+        <address>bagamra</address>
+        <age>21</age>
+    </child>
+    <child aid="2">
+        <name>shadbhav</name>
+        <address>naya bazar</address>
+        <age>18</age>
+    </child>
+</root>

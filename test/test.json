@@ -1,0 +1,11 @@
+{
+    "info" : {
+        "name" : "ccer",
+        "age" : 21,
+        "address" : "bagmara"
+    },
+    "detail" : {
+        "course" : "BIT",
+        "sem" : "III"
+    }
+}
